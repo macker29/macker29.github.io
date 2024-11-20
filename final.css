@@ -22,11 +22,11 @@ h4 {
 h3 {
 	font-size: 30px;
 }
-<p>
-	font-style: italic;
+p {
 	font-size: 20px;
 	font-family: 'Times New Roman', serif;
-	</p>
+
+}
 
 img {
 	float: right;
