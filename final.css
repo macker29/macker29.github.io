@@ -1,7 +1,7 @@
 /*This is the CSS page for our final template.*/
 
 .footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #cccccc;
+	background-color: #FF7900
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0;
@@ -11,55 +11,65 @@
 	font-weight: bold;
 	font-size: 50px;
 	text-align: center;
-	font-family: 'Oswald', serif;
-	background-color: #C8D3D5;
+	font-family: 'Inter', serif;
+
 }
 h4 {
 	font-style: italic;
-	font-size: 40px;
-	font-family: 'Oswald', serif;
+	font-size: 15px;
+	font-family: 'Poppins', serif;
 }
 h3 {
-	font-family: Oswald;
+	font-family: 'Inter' serif;
 	font-size: 30px;
 }
-p {
+
+h5 {
 	font-size: 20px;
-	font-family: 'Times New Roman', serif;
-
+	font-family: 'Poppins', serif;
+	font-style: italic;
 }
-
+p {
+	font-size: 18px;
+	font-family: 'Poppins', serif;
+	text-align: center;
+}
 img {
-	float: right;
-	margin-right: 5%;
-	margin-left: 5%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
 }
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 700
+iframe {
+	background-color: #FFFAF0;
+  	width: 95%;
+  }
+blockquote {
+	"font-family: 'Poppins';
+	font-size: 15px;
+	font-style: italic;"
+	text-align: center;
+	
+}
 
-.oswald-<uniquifier> {
-  font-family: "Oswald", sans-serif;
+a {
+	color: #003262 ;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
-{
- .list {
- 	border: 2px solid darkolivegreen;
- 	float: none;
- 	min-width: 90%;
- 	margin-left: 10px;
- 	margin-bottom: 30px;
- 	margin-top: 30px;
- }
- iframe {
- 	min-width: 90%;
- 	margin-right: 10px;
- }
-.footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #6C698D;
-	text-align: center;
-	font-size: 18px;
-	margin-bott
